@@ -54,7 +54,7 @@ function App() {
             required
             value={formdata.descrition}
             type="text"
-            placeholder="Preço"
+            placeholder="Descrição"
             onChange={(event) =>
               setFormdata({ ...formdata, descrition: event.target.value })
             }
@@ -79,7 +79,7 @@ function App() {
           </div>    
 
           <div className="center">
-            <h1>tarefas</h1>
+            <h1>Tarefas</h1>
           <div >
             {products.map((product, idx) => (
               <div className="card" key={idx}>
