@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+
+input, select{
+    width: 16vw;
+    height: 6vh;
+    text-align: center;
+    border: 0 ;
+    border-bottom: 2px solid;
+    margin-bottom: 2vw;
+    margin-top: 2vh;
+    
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 58vh;
+    margin-top: 24vh;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 2vw;   
+}
+
+.bg{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 22vw;
+    height: 100vh;
+    background-color: #102766;
+}
+
+.main{
+    display: flex;
+}
+
+.btnSalva{
+    width: 16vw;
+    height: 4vh;
+    color: white;
+    background: #E84118;
+    border-radius: 8px;
+    border: none;
+}
+
+.card{
+    /* display: inline-block;
+    box-sizing: border-box; */
+    margin-top: 8vh;
+    margin-left: 24vw;
+    width: 74vw;
+    height: 16vh;
+    background: #FFFFFF;
+    border: 1px solid #C7C4C4;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.title{
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 83px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 30px;
+    color: #343434;
+}
+
+.categoria{
+    margin-left: 1vw;
+    width: 82px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2b1818;
+}
+
+.descrition{
+    margin-left: 1vw;
+    margin-top: 2vh;
+    width: 718px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 22px;
+    color: #343434;
+}
+
+.btnDelete{
+    margin-left: 72vw;
+    margin-bottom: 80vh;
+    color: red;
+    width: 4vh;
+    height: 4vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bg{
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        width: 22vw;
+        height: 100vh;
+        background-color: #f9f9f9;
+    }
+}
